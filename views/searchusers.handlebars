@@ -3,6 +3,35 @@
     color: red;
     margin: 0;
   }
+  button {
+      border-radius: 20px;
+      border: 1px solid #FF4B2B;
+      background-color: #FF4B2B;
+      color: #FFFFFF;
+      font-size: 12px;
+      font-weight: bold;
+      padding: 0px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      transition: transform 80ms ease-in;
+      position: absolute;
+      top: 260px;
+      left: 15%;
+  }
+
+  button:active {
+      transform: scale(0.95);
+  }
+
+  button:focus {
+      outline: none;
+  }
+  .btn1{
+      padding: 0px;
+  }
+  .btn2{
+    background-color: #FF4B2B;
+  }
 </style>
 
 <header>
@@ -42,8 +71,10 @@
         <input type="text" name="id" class="form-control" placeholder="Search Users By UserName">
       </div>
       <br>
-      <input type="submit" class="btn btn-primary" value="Search">
+      <input type="submit" class="btn btn-primary pull-left" value="Search">
+      <a class="btn btn-default pull-left btn2" href="/"><b> Log out</b></a>
     </form>
+    <br>
 
   </div>
 </body>
