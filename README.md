@@ -1,5 +1,5 @@
 # Simple Redis Login Form 
-Simple Redis login form and account management webapp for `demo tutorial` a product of Redis in `Database Systems` subject using Node.js, Handlebars and Redis.
+Simple Redis login form and account management webapp for `demo tutorial` a product of Redis in `Database Systems` subject using Node.js, Handlebars and Redis. We just implement basic CRUD operations (Create - Read - Update - Delete)
 
 ### Version
 1.0.0
