@@ -28,6 +28,7 @@ $ redis-server
 Install Dependencies
 
 ```sh
+$ npm init
 $ npm install
 ```
 
